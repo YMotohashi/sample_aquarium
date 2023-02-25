@@ -1,0 +1,194 @@
+@charset "utf-8";
+/*
+color
+黒・・・#28282C
+青・・・#2673B8
+緑・・・#8EE3C8
+*/
+
+h1{
+	margin: auto;
+	width: 1200px;
+}
+
+/*ヘッダーのスタイル*/
+header{
+	margin: auto;
+	width: 1200px;
+	height: 335px;
+}
+
+header img{
+	width: 1200px;
+	border-radius: 8px;
+}
+
+.catch{
+	position: absolute;
+	top: 180px;
+	left: 400px;
+	color: #fff;
+	font-size:1.2em;
+	letter-spacing: 0.5em;
+}
+
+/*ナビゲーションのスタイル*/
+nav{
+	border-radius: 8px;
+	padding: 10px;
+	margin: auto;
+	width: 1180px;
+	background-color: #28282C;
+	color: #fff;
+}
+
+nav a:hover,footer a:hover{
+	color: #ccc;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+}
+
+nav li{
+	padding: 10px 30px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 0px 0px 1px;
+}
+
+nav li:last-child{
+	border-style: solid;
+	border-color: #fff;
+	border-right-width: 1px;
+}
+
+nav a,footer a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*メインのスタイル*/
+main{
+	margin: auto;
+	width: 800px;
+}
+
+.section{
+	background-color: #fff;	
+	margin: auto;
+	width: 700px;
+	padding: 30px;
+}
+
+.section p{
+	font-size: 0.8em;
+	
+	letter-spacing: 0.3em;
+}
+
+.photo{
+	width: 300px;
+	margin: auto;
+}
+
+.photo img{
+	border-radius: 8px;
+}
+
+.main_contents{
+	display: flex;
+}
+
+.main_contents:first-child{
+	padding: 30px 0px;
+}
+
+#photo2{
+	padding-bottom: 30px;
+}
+
+.info{
+	color: #fff;
+	background-color: #2673B8;
+	border-radius: 8px;
+	width: 740px;
+	margin: auto;
+	margin-bottom: 30px;
+	padding: 30px;
+}
+
+.info ul{
+	list-style-type: none;
+}
+
+.info li{
+	border-bottom-style: dotted;
+	border-width: 1.5px;
+}
+
+.info a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.info a:hover{
+	color: #ccc;
+}
+
+/*フッターのスタイル*/
+footer{
+	border-radius: 8px;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 1200px;
+	background-color: #28282C;
+	color: #fff;
+}
+
+footer ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: right;
+}
+
+footer li{
+	padding: 10px 20px;
+	text-align: center;
+	font-size: small;
+}
+.copyright{
+	text-align: end;
+	font-size: small;
+	margin-right: 20px;
+}
+
+.lbox img{
+	width: 200px;
+	padding: 20px;
+}
+
+.lbox{
+	margin: auto;
+	width: 740;
+	padding: 30px;
+}
+
+/*スクロールボタンのスタイル*/
+#scroll-to-top-btn{
+	position: fixed;
+	bottom: 80px;
+	right: 20px;
+	height: 40px;
+	width: 40px;
+	color: #FFF;
+	font-size: 16px;
+	background-color: #ccc;
+	border: none;
+	border-radius: 50%;
+	transform: rotate(-90deg);
+	transition-duration: 0.2s;
+}
+

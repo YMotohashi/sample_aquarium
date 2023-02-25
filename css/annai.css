@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*テーブルのスタイル*/
+table{
+	width: 800px;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+caption,#ptitle{
+	text-align: left;	
+	text-weight: bold;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+}
+
+th{
+	background-color: #2673B8;
+	color: #fff;
+}
+
+td{
+	background-color: #eee;
+	padding: 10px 0px;
+}
+
+/*チケット購入のスタイル*/
+.ticketkounyu{
+	width: 800px;
+	margin: 20px 0px;	
+}
+
+#to_ticket{
+	background-color: #2673B8;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+#to_ticket a{
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
